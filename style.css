@@ -1,0 +1,62 @@
+/* Basic page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Website colors and font */
+body {
+    background-color: #111111;
+    color: #F7F1E6;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    padding: 25px 8%;
+}
+
+header h2 {
+    color: #C9A45C;
+}
+
+/* Main homepage section */
+main {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Main festival heading */
+h1 {
+    font-size: 60px;
+    color: #C9A45C;
+    margin: 20px 0;
+}
+
+/* Paragraph spacing */
+main p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Explore Events button */
+main a {
+    display: inline-block;
+    background-color: #C9A45C;
+    color: #111111;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 25px;
+}
